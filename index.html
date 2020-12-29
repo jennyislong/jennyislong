@@ -1,7 +1,229 @@
 <!DOCTYPE html>
-<html>
-    <body>
-        <h1>Hello !</h1>
-        <p> My name is Jenny Long</p>
-    </body>
+<html lang="en">
+<head>
+  <title>Jenny Long's Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="icon" type="image/png" href="logo4.png" sizes="16x16"/>
+  <link rel="icon" type="image/png" href="logo4.png" sizes="32x32">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Castoro&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/47fd904c8a.js" crossorigin="anonymous"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  
+<!--====================================NAVIGATION BAR=================================================-->
+<a name="top"></a>
+<nav class="navbar navbar-expand-md py-0">
+    <a class="navbar-brand" href="#home"><img src="images/logo3.png" height="80" alt="logo"></a> <!--ADD LOGO IMAGE HERE-->
+    <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#main-navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="main-navigation">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" data-value="home" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-value="about" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-value="skills" href="#skills">Skills</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" data-value="projects" href="#projects">Projects</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+  <!--===============================HEADER==================================================-->
+  <header class="page-header header container-fluid" id="home">
+       
+  <hr>
+        
+        <div class="description">
+                <h1>Hi, I am <div class="name">Jenny Long</div></h1>
+                
+                <img src ="images/jenny.PNG" height="400" alt="Jenny Long"> <br>
+        
+                <a href="https://www.linkedin.com/in/jenny-long/"><img class="linkedin-icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAACPklEQVRoQ+1ZwXHbMBDco+13nArkdKBvxopDVBCjgkgdKBVEqcDuIHIFcAegInrydQemOlDeGvMysEyOSYMSmAFNcUI+Reiwe3vHWxKEjl/UcfzoCbStYK/AwSqgljoE0U8AZy2DTMA8kZ9EZMNRWUIqjh4OAHyGOZGj8ENdAtxy5gvby1FoTfYuBXoCPhX0owDjD4hn2GD+BO4EYzDNQHjnE6wtlh8C4G9yJK5fbqBiPQXoqhMEqrKg4qjxfvGiQOcJIGUpL8RtoYR+6UsEpDpRQgDWSHmSkVBb8GZan3aFQNM4K+N76YHW0APwRIBvwEgKRMiYPfqa/8b84xVRojGAAYgWeEyvcYREnov7J8MYmP8HYzB/3pUgPwSYRdkVPrtWnW1u20jdLSIgnctzsR2AlkvdaTMUTT9Zr5YJ6KHJ+L4SVEs9A9H35ibxPyqwD3h2X2l9imNKbNakVQVygL/1GW94QCe0kh9FsZeeF6l4cQvwlzLp1gmoeHEF8DQHRjyx9URVGbVKoNzoOYkNv5dCrF3MYdsE7M3p0FO7nm7mXr03MocNrY/RWM8LsyJD5RDvMAiYOWAbVD2BtyqhXgFfZs6hZiu9UN8DPj5s9QqUHI5DQjzPAZoyPxZsMdHREMT5tyJO07BsxCgIzP3hK1fK++P5JeDqixtY58cLNQDMNeR/SGAZrd/io62jAis5Cq0nRdVudHvEZF7CB46bNLVsBeZx7SOmptD4jtsfs/rOaN14vQJ1M+Z7fecV+AteVwpPZIjdGgAAAABJRU5ErkJggg=="/></a>
+                <a href="https://github.com/jennyislong"><img class="github-icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAETElEQVRoQ+1Z23XTQBC9IxN+CRWQVED45FhgiQbI0gBQAaQCnApiKsCpQKYCycQ5fGIqwKkA823i4awkG1m7q921BSHnsJ+WdjR3HnceJtzyQ7dcf/wHcNMebM0DyWV6hGXQQ8ARGAcAjmrgpgDmIMr4+jp78fTZuA3wOwFI0nQfd4M3YH4F5Er7nBlAI3SW78XjeOZzsfruVgByxfeCdwC/3fbDtXtDLPhExPHcV543gORTeoyAPgDY9/2Y5f05iE9ENx76yPUCkEzGZy1a3aTnUITRa1cQzgCSSSatLmP9b5wMCxYuIeUE4C8rvzJQJsIotlnLCiC5SPsgemcT9IeeW8OpEUBykUYgSlXl+BwMmWzyuQyrB1sBYPxAwEMsMUKAYzC9UeQQv25KbCOAgirpi5bfmWPxJM5WH0su01dY0gCEe+VvX0G0SYnMkrUe5s+l4sR9EcaDtYzP6QGu6ZvGEHMs+NCUD2YADaEjwki5lwO+g6MqMJ1Xcq/+xFSnUDLJWO9JPhdhrCUQLYDS+tIaWq7XAdgqhGqXzAAAdPhQV7H1ACbpW4DOjEot+L4LxfmCagRA/F50Y6XyGwBkMvbrzdhvfWo54KuoNrRkM8h5zpnOTITRYf2hGsvmZCrv0kcR9o7bULouI7lMB1omWr2oMZwKQDIK572O/hhisQ1ABRHQrMJmm2KZT8WTuF/9UQegwQp/zvprOp2kQ4Be6g2ifl8DYJyBuacVoLFAG5avyii73cQgdyrC6JHFAw0AlizE03jUttIbAIzVv3irTuGqByaZ5H/9dGUp620AM7cv7gDk7FqU/Pq5+RBy8MBlQwgZikkbll8ncXP3eyXCaCM6/JIYUJKoTeWlrGQyHgH8XCuXaCy6vWgHGjX3JG0AKXuw72ZZLjRaDO0mGpO9sLEz3BWEfXjik2oLLr+nb4v3qMEKEsPmPLCr4nnoFL2QHJ7M2w7iR6IbS5JZH30z15TIxdU5mIWt93cFVlKn9HrTqkZJYK0HSmvU+6GrXGmVXofo8Om2m7WkaBzlvO2w7VDDxwggB3GRzddNFWEkupEoV4kjTasxBUiOU1NaLD+aZgV5n/eC55S36izZxNyyV90nR9CffKCTax4p1aFmigUXa449kvOwrth9FWHUqFRiD0+vAtq8lZhktapcMFCxiaZMaXsdWg1Ls6ZLmyss+Mh7qK8ww+aUVM4DBWsEfTBHIJkfnKGDvks+NI6OavuysQGpP7YvtuoDTpkPrgyje88dgD5xrTRa/6g66tFAhL2TbUG4AXArmFYPrJTUzKszMA2Yr4vCEnQOXoS9cxdQdgBuyjfSqNb1lnnZdV/UDMAeNt4hVL1Qlny5F1VodEcAV/KvKt/q7hxCSl4UdUIumtaL3a0AyCIFHtS3DS6h6B1CxrBCkLcC9V7dpERZzPZBPPD9S8mbRl0tcVPvbR1CN6Xwfw/8K5Zf6XHrQ+gXvGoUT1fJXT0AAAAASUVORK5CYII="/></a>
+                <a href="mailto:jenny.long@ryerson.ca" ><img class="email-icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAACLklEQVRoQ+2YX07CQBDGvwV9liPgCcRHA4n0BNoTCDeAk8AN1BNUT1BMID6KN4ATiM9ExmyhxC602/1TKHF5hJ3Z+c337SxZhhP/sBOvHw7g2Ao6BZwChh34HxYK3sM6VmwAQgNA3bBpquEzMExRob5/483EYKkCUfE/7ANATXVny+sXqNK1CCEHGL+9AHRnuRjNdOzVb93e/w3OATD6KkH345pnfqt9qQpAe9o1BaOu3/Smmq3MDAsmYQPEHoHozCU+fqudaHoeBfYB8KQLMOr7Te/JJkQwCTsgNkhT3SZAXPcTltT3PW9hAhKEYQ3nUeGdrDxFAPD9jCyVZRn7FmLUxYoNwXAhJNeyVKplCN+oUG9zFrZbGSvAE2w6xr1/tUfuXJaSWOYTjDp8SATjUeIMWgHgRa8LwBBgD6pTKtsy9IwlevGZKgwgLjqygIKlZJYRp1rhAJEa67mdaakIOH3KbC0jqnkQgFyWWle2czEBSctYB1Cd7RmWSqbaTBnZRWisgCpADkvxJamWMVZAJM4LII639CmVbZnSAOxMKf5FhXoyy5QOIK+CaeuUz4AtC5kWvlXQ9Ca2VYhuHmUFdDcqKs4YQNVS4jQyBXMATgFDDxlbyHB/qCoo2W/ut9qJl0Hpq0S5ADQetvLekOK6eBpZU4D/ez2jhvLTYgkA5gCborrqaT3umgKYWlAWr30GZNawfaGlgWgDyDpzqN8dwKE67Sx07E47BZwCBXXgF2H1aUClC2qsAAAAAElFTkSuQmCC"/></a>
+               
+            </div>
+    
+</header>
+
+<!-- =====================ABOUT ME PAGE======================================================-->
+<div class="container about" id="about">
+        <div class="row">
+        
+          <div class="col-md-5 order-md-1">
+            <h3 class="about-title">About Me</h3>
+            <img src="images/jen.png" class="img-fluid">
+             
+        </div>
+        
+          <div class="col-md-7 order-md-2" id="about-info">  
+              <p>
+                I am a motivated 2nd-year Computer Science student at Ryerson University seeking a Summer 2021 internship position. </p>
+              <p> I have over 5 years of customer service experience and an Honors Bachelors of Arts in Psychology from York University.</p>
+              <p>While taking a cognition course at York University, I’ve learned about the computational theory of mind and noticed the similarities between the computational processes of the brain and machines. </p>
+              <p>This sparked my interest in computer science, specifically in machine learning as well as web development and data analytics.
+              </p>  
+              <p>
+                Check out my Resume for more information!
+              </p>
+              <div class="text-center">
+              <button class="btn btn-outline-secondary btn-lg">Resume</button>  
+              </div>  
+          </div>
+        </div> 
+      </div>
+
+
+<!-- ========================SKILLS===================================================================-->
+
+  <div class="container-fluid skills" id="skills">
+      <div class="row">
+      
+          <div class="col-lg-2">
+          <h3>Skills</h3>
+          </div>
+         
+              <div class="col-lg-2 p-3">
+                <img src="images/python.png" alt="python"/> 
+                <p>Python</p>
+              </div>
+              <div class="col-lg-2 p-3">
+                  <img height="70px"src="images/java.png" alt="java"/> 
+                </div>
+
+              <div class="col-lg-2 p-3">
+                  <img src="images/html5.png" alt="html5"/>
+                </div>
+                <div class="col-lg-2 p-3"> 
+                  <img src="images/css3.png" alt="css3"/>
+                </div>
+                <div class="col-lg-2 p-3">
+                  <img src="images/MySQL.png" alt="MySql"/>
+                </div>
+        </div>
+
+  
+    </div>
+
+
+<!-- ===================================================CAROUSEL============================================== -->
+
+<div id="projects"> 
+      <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+          <div class="carousel-inner">
+          
+          <!-- Indicators -->
+          <ul class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ul>
+          
+          <!-- The slideshow -->
+            <div class="carousel-item active" data-interval="8000">
+                <h2>Projects</h2>
+              <div class = "overlay-image" style="background-image:url(images/poker.jpeg);"></div>
+              <div class ="container carousel">
+                  
+                  <div class="describe">
+                  <h3>Poker Hand Recognization</h3>
+                  <p>This Program Identifies and returns what kind of poker hand is represented </p>
+                  <p class="tech">Technology: Python</p>
+                  <a href="https://github.com/jennyislong/Poker-Hand-Recognization" class="btn btn-social-icon btn-xl btn-github">
+                      <span class="fa fa-github"></span>
+                  </a>
+                </div>
+
+                </div>
+                
+            </div>
+            <div class="carousel-item" data-interval="8000">
+              <h2>Projects</h2>
+              <div class = "overlay-image" style="background-image:url(images/desk.jpeg);"></div>
+              <div class ="container carousel">
+                  <div class="describe">
+                  <h3> Project 2</h3>
+                  <p> this is project 2
+                  </p>
+        
+                  <a href="https://github.com/jennyislong/Poker-Hand-Recognization" class="btn btn-social-icon btn-xl btn-github">
+                    <span class="fa fa-github"></span>
+                </a>
+                  </div>
+
+                </div>   
+            </div>
+            <div class="carousel-item" data-interval="8000">
+              <h2>Projects</h2>
+              <div class = "overlay-image" style="background-image:url(images/race-against-time.png);"></div>
+              <div class ="container carousel">
+                  <div class="describe">
+                  <h3>Race Against Time</h3>
+                  <p> Online Escape Room that aims to educate and entertain people on the topic of Corona Virus
+                  </p>
+                  <p class="tech">Technology: HTML,CSS,JavaScript,PHP,jQuery,BootStrap,MySQL</p>
+                  
+                  <a href="https://www.cs.ryerson.ca/~habdulha/CPS530/Project/index.html" class="btn btn-social-icon btn-xl btn-desktop">
+                    <span class="fa fa-desktop"></span>
+                  </a>
+                  <a href="https://github.com/HamdiaA/Race-Against-Time" class="btn btn-social-icon btn-xl btn-github">
+                    <span class="fa fa-github"></span>
+                  </a>
+                </div>
+                </div>
+            </div>
+            
+          </div>
+
+         
+          
+          <!-- Left and right controls -->
+          <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+
+</div>
+
+
+
+<!-- ==========================================FOOTER=======================================================-->
+
+
+      <footer class="page-footer">
+            
+   
+    
+            <div class="footer-copyright text-center">© 2020 Copyright: jennyislong.io 
+            <a class="up" href="#top"><img class="float-right"src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAET0lEQVRoQ+1ZXVbUMBT+7oz6Kq7AYQXCo4eCrRuQuAFgBcAKHFfgsAKGDdhxA7bocHwUVuCwAsdXBuZ60s5fm7RJ2qIHj3ltc3O/e7/c5H4hPPBBD9x//AfwtzPYWAY+fvn8itptH8w+gDUAGzlwlwDGIIr57i5+u/P6vAnwtQCE36IO7lqHAO8C6Dg6NAJogPb0RLwMRo5zF79XAhBG0Roe0wcA+1UXzs3rY8LHIgjGrvacAYQX0T44cV7SpMkxBvGx2Ar6LkadAITD+LQ86vQJNB1gihEeYTSnRkK1W3TQQgfc2gX4TYmTfeH5B7YgrAAklHlCp2BIrufHNYi7uMHAlgKpPeyCqQvguWKRMMANH9jYswNwEYeK84xfAPdwi57NQrqIJkAe4QigIxCeZv4hDMSWL0yZMALQ0kY632JfbAWyNNYe4UW0gSnFCgjASKdSAOGXaBctCnMeXmHCftWoF6GdVbYYwIvMP1MWYicYFM0rBDAz+CNTbWTkb7nTtPNz51JK0SiXiTEmvF60ZjGAYdQHaG+BvGHaFGZC0onpe/Y7nwkv0J45WgDpCUsy+svB/F5sB7Jq3PsIv0ZdEL3LLNTmdd2JrQdwEfXAdLhi4BoT3nClTnLoAXA9nLRUIj4RW8FRPnp6AMNYRn95tyE+cHYiPbHlwQfUnZ96PRKev24EkJS0PAcn/Mwl+rPrRur8fDiCmBWRnzkbm/nSrWRA5R99Et4r3Qms3Qta56uCGJ4PstcOPhZe0MvEJe9FmJ/kELlS5yuAUO2pwVQzMIxlCVs2I8yB2A7kAVM6rJx3BBF+jXwQRSsLXwrP3zRkIGYT75SsrW5YE1IHELr9KDw/E3RdBjIA8hMacd4FxDAb0MYBFAU8NCxsmyiTHWMGQKyULpvFTQtb2dCUdJsMyCvy8kZouYnValaeeisA6ia+Ep6fUTs0GTDXXqvFG6BQOIxksyP779mwKqPmSX8OgDmYagYauEpIgHX3QOWrxGxxKTQtm22H03iendoAFPrgWni+Ip7pb6Pqfby0K9JRqg4AfTeo70f+zYYmoZHa1Mh7faUzwWbTL6in24MFzYycU97U6xrsNm/WEWPLwMxaWXmZXMqWBiGhiqxyiTaLpkHMnJcSTlaWryqrrKQ03x/LT1KIDRoVtji5NmcF4xLqLI42G36GeYllMZu6uJmeuLSbq+ulGmnrEMwataNYSlm1YZQWkw2dvAegl9GJllbGiUh7Oz2zBZKqDq29RBTWyvR8hgmObOxZATDQaeWqgoHUOJnvEs10/owkn5+SikHtDVDymiOfofTDgjbOGcikXeqlRH2NEGvDxuJ/ZLVh3i/TQXWTnTKwyESq73dz4ld1AMQnuEHXhjL5RSoByACR+j6RVODUh4pySNdg7td5Xyg9yFzDmTbgktstH4Q1MCe8XwyiczDGwFS+A8RNleBaGXAFeR///wdwH1F1sfngM/AbuRpmTwNVrZMAAAAASUVORK5CYII="/></a>
+          </div>
+          </footer>
+
+<script src="main.js"></script>
+
+
+</body>
 </html>
