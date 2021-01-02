@@ -51,10 +51,12 @@ hr{
     top: 45%;
     transform: translate(-50%, -55%);
     text-align: center;
+    margin: auto;
   }
 
   .description h1 {
     font-family: 'Playfair Display', serif;
+    padding-top:80px;
   }
   .description p {
     color: #fff;
