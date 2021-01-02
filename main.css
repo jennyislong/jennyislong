@@ -76,17 +76,23 @@ hr{
   .about button:hover {
     border:1px solid rgb(99, 131, 125);
     background:rgb(99, 131, 125);
-    color:white;
+
   }
 
   .about {
     margin: 4em auto;
     padding: 1em;
-    position: relative;
-
-    
+    position: relative; 
   }
 
+  .about button a{
+    text-decoration: none;
+    color:black;
+  }
+
+  .about button a:hover{
+    color:white;
+  }
   .about-title {
   
     padding-bottom:20px;
