@@ -154,20 +154,22 @@ hr{
   background-size:cover;
   opacity:0.5;
 }
-
+.carousel-item h2{
+  padding: 20px;
+}
 .describe
 {
   padding-top:200px;
-  padding-left:30px;
+  padding-left:80px;
 }
 .btn-xl
 {
   padding: 10px 10px;
     font-size: 40px; 
     line-height: normal;
-    -webkit-border-radius: 8px;
-       -moz-border-radius: 8px;
-            border-radius: 8px;  
+    -webkit-border-radius: 3px;
+       -moz-border-radius: 3px;
+            border-radius: 3px;  
   color:#AFC4C0 ;
 }
 .btn-xl:hover{
